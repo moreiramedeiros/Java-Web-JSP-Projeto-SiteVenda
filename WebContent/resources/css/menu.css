@@ -1,0 +1,82 @@
+  /* Estilo para a barra de navegação */
+        .barra {
+         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+          overflow: hidden;
+          background-color: #325a99;
+
+           /*Mantém a fixa no topo ao rolar a página*/
+      /*    position: sticky;*/
+     /*     position: -webkit-sticky;*/
+     /*     top: 0;*/
+
+        }
+        
+        /*  Estilo para os links da barra */
+        
+        
+        .barra a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;         
+          padding-left: 25px;	               /*Comprimento de cada item do menu */
+	 	  padding-right: 25px;	               /*Comprimento de cada item do menu */ 
+          text-decoration: none;
+           height: 65px;
+           line-height: 65px;          /*Centralizar na vertical e horizontal */
+        }
+        
+        /* Mudar a cor do link ao passar o mouse */
+        .menu a:hover {
+           background-color: #d7dbf5;
+          color: #325a99; 
+         
+           height: 65px;
+        }
+        
+        .menu {
+           float: right;
+        }
+      
+      
+      
+        
+ /* Conteúdo da página */       
+        
+     
+  .conteudo {
+   
+	 padding: 40px;
+     min-height: 400px;
+     
+   }   
+     
+      
+  /* Rodapé */   
+  
+   .rodape {
+	  padding: 40px;     
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+       background-color: #325a99;
+       color: #f2f2f2;    
+ 
+   }  
+   
+   .rodape a{
+      text-decoration: none;
+      color: #f2f2f2;   
+      
+   }
+    
+    
+   /* Cabeçalho */   
+    
+   .cabecalho {
+   
+	  padding: 40px;     
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+       background-color: #eaeaea;
+       color: blue;    
+ 
+   } 
+        

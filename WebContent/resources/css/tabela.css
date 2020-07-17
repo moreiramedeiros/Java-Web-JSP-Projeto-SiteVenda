@@ -1,0 +1,72 @@
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;  
+  margin-bottom: 50px;   
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:nth-child(odd){background-color: white;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4287f5;
+  color: white;
+}
+
+#customers img {
+    height: auto;
+}
+
+
+
+
+
+
+
+
+/* Tabela Home */
+
+
+#customersHome {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px; 
+  margin-bottom: 50px;   
+  
+}
+
+#customersHome td, #customersHome th {
+  padding: 20px;
+}
+ 
+#customersHome tr {
+    border: 1px solid #ddd;
+}
+
+
+
+#customersHome th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4287f5;
+  color: white;
+}
+
+
+#customersHome img {
+    height: auto;
+}
+

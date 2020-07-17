@@ -1,0 +1,48 @@
+ 
+ 
+.login input[type=text], .login input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login input[type=submit] {
+  width: 100%;
+  background-color:  #325a99;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login input[type=submit]:hover {
+  background-color:#b2c9ed;
+}
+
+.login {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:400px;
+  margin:0 auto;
+  margin-top:60px;
+  border-radius: 5px;
+  background-color: #4287f5;
+  padding: 20px;
+  color: white;
+}
+
+
+.login td{
+	
+	vertical-align: top;
+	padding: 10px;
+}
+
+ 
+	
+ 
+ 

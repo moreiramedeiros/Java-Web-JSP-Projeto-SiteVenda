@@ -1,0 +1,221 @@
+ 
+   /* Formulário de cadastro */
+   
+.formulario input[type=text], .formulario input[type=password], .formulario select, .formulario textarea, .formulario input[type=number]  {
+  width: 450px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formulario input[type=submit], .formulario button {
+  width: 100%;
+  background-color:  #325a99;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formulario input[type=submit]:hover {
+  background-color:#b2c9ed;
+}
+
+.formulario {
+ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:950px;
+  margin: 50px auto 50px;  
+  border-radius: 5px;
+  background-color: #4287f5;
+  padding: 20px;
+  color: white;
+}
+
+
+.formulario td{
+	vertical-align: top;
+	padding: 10px;
+}
+
+ 
+.radio {
+  width: 450px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+ 
+
+/* Campo de pesquisa pagina admin */
+ 
+  .campoPesquisarAdmin{
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #325a99;
+  }
+ 
+ .campoPesquisarAdmin input[type=text]{
+ 
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.campoPesquisarAdmin input[type=submit] {
+  background-color: #4287f5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ .campoPesquisarAdmin input[type=submit]:hover{
+  background-color:#b2c9ed;
+}
+  
+ 
+ 
+ 
+ 
+
+ 
+  /* Campo de pesquisa pagina home */
+  .campoPesquisar {
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .campoPesquisar select, .campoPesquisar input[type=text]{
+  
+    background-color: #ffffb3;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.campoPesquisar input[type=submit] {
+	 
+  background-color: #325a99;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ .campoPesquisar input[type=submit]:hover{
+  background-color:#b2c9ed;
+}
+  
+ 
+ 
+
+ 
+ /* Área de preço total pagina carrinho */
+ 
+ .campopreco {
+ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:300px;
+  margin: 50px auto 50px;  
+  border-radius: 5px;
+  background-color: #4287f5;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  line-height:30px; 
+}
+ 
+ 
+ .campopreco input[type=submit]{
+  width:100%;
+  background-color: #325a99;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+ .campopreco select{ 
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+ 
+.campopreco  input[type=submit]:hover{
+  background-color:#b2c9ed;
+}
+ 
+ 
+ 
+
+  
+  /* Campos da tabeça de preço da página home*/
+ 
+.campoTabelaProdutos input[type=number] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.campoTabelaProdutos input[type=button] {
+  background-color:  #ff8040;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.campoTabelaProdutos input[type=button]:hover {
+  background-color:#c84100;
+}
+
+ 
+   
+  /* Campos da tabela de preço da página carrinho*/
+ 
+.campoTabelaProdutosCarrinho input[type=number] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.campoTabelaProdutosCarrinho input[type=button], .campoTabelaProdutosCarrinho button {
+  background-color:  #ff0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.campoTabelaProdutosCarrinho input[type=button]:hover {
+  background-color:#990000;
+}
+
+ 
+ 
+ 
